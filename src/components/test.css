@@ -4,7 +4,7 @@
 #videowrapper {
   margin-bottom: 40px;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 @media only screen and (max-width: 600px){
  

@@ -126,7 +126,7 @@ const Home = () => {
       <div className='container education'>
 
         <div className='education-card'>
-          <img src={require('./images/college.jpg')} />
+          <img src={require('./images/school.jpg')} />
           <div className='education-text' >
             <h3>Higher Secondary School</h3>
             <p>Demonstraion Multipurpose School</p>
@@ -135,7 +135,7 @@ const Home = () => {
         </div>
 
         <div className='education-card'>
-          <img src={require('./images/school.jpg')} />
+          <img src={require('./images/college.jpg')} />
           <div className='education-text' >
             <h3>Bachelors of Technology in Information Technology</h3>
             <p>Government Engineering College Ajmer</p>

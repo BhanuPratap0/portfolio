@@ -9,13 +9,13 @@ import Form from './components/Form';
 function App() {
   return (
     <BrowserRouter>
-      <>
+      <div >
         <Navbar />
         <Home />
         <Routes>
           <Route path='/form' element={<Form />} />
         </Routes>
-      </>
+      </div>
     </BrowserRouter>
   );
 }

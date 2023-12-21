@@ -4,9 +4,9 @@ import './test.css'
 
 const Home = () => {
   return (
-    <>
+    <div className='home'>
       <div id="videowrapper">
-        <div id="fullScreenDiv">
+      
           <video autoPlay={true}
             loop={true}
             controls={false}
@@ -16,7 +16,6 @@ const Home = () => {
             id="video" >
           </video>
           <div id="videoMessage" className="styling">
-            <div className='d-flex flex-wrap' >
               <div className='front-section' >
                 <h1>Hi There,<br />I'm Bhanu Pratap Singh</h1>
                 <div className='social d-flex' >
@@ -28,9 +27,8 @@ const Home = () => {
               <div className='front-section' >
                 <img src={require('./images/profile.jpeg')} />
               </div>
-            </div>
           </div>
-        </div>
+  
       </div>
 
       {/* About Section */}
@@ -140,7 +138,7 @@ const Home = () => {
 
       </div>
 
-    </>
+    </div>
   )
 }
 

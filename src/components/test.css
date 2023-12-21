@@ -4,7 +4,14 @@
 #videowrapper {
   margin-bottom: 40px;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 600px){
+ 
+  #videowrapper {
+    margin-bottom: 40px;
+    width: 100vw;
+  }
 }
 
 #fullScreenDiv {
@@ -39,7 +46,7 @@
 }
 
 #videoMessage {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   position: absolute;
   top: 0;

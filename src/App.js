@@ -1,17 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import Form from './components/Form';
 
 
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-    <Navbar/>
-    <Home/>
-    </div>
+      <>
+        <Navbar />
+        <Home />
+        <Routes>
+          <Route path='/form' element={<Form />} />
+        </Routes>
+      </>
     </BrowserRouter>
   );
 }

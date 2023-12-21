@@ -3,6 +3,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body{
+
+}
 nav{
   position: fixed;
   z-index: 99;

@@ -10,13 +10,13 @@ const Navbar = () => {
                     <input type="radio" name="slider" id="menu-btn"/>
                         <input type="radio" name="slider" id="close-btn"/>
                             <ul className="nav-links">
-                                <label for="close-btn" className="btn close-btn"><i className="fas fa-times"></i></label>
+                                <label htmlFor="close-btn" className="btn close-btn"><i className="fas fa-times"></i></label>
                                 <li><Link href="#">Home</Link></li>
                                 <li><Link href="#">About</Link></li>
                                 <li>
                                     <Link href="#" className="desktop-item">Dropdown Menu</Link>
                                     <input type="checkbox" id="showDrop"/>
-                                        <label for="showDrop" className="mobile-item">Dropdown Menu</label>
+                                        <label htmlFor="showDrop" className="mobile-item">Dropdown Menu</label>
                                         <ul className="drop-menu">
                                             <li><Link href="#">Drop menu 1</Link></li>
                                             <li><Link href="#">Drop menu 2</Link></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
                                 <li>
                                     <Link href="#" className="desktop-item">Mega Menu</Link>
                                     <input type="checkbox" id="showMega"/>
-                                        <label for="showMega" className="mobile-item">Mega Menu</label>
+                                        <label htmlFor="showMega" className="mobile-item">Mega Menu</label>
                                         <div className="mega-box">
                                             <div className="content">
                                                 <div className="row">
@@ -65,7 +65,7 @@ const Navbar = () => {
                                 </li>
                                 <li><Link href="#">Connect</Link></li>
                             </ul>
-                            <label for="menu-btn" className="btn menu-btn"><i className="fas fa-bars"></i></label>
+                            <label htmlFor="menu-btn" className="btn menu-btn"><i className="fas fa-bars"></i></label>
                         </div>
                     </nav>
                 </>

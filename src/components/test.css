@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
+
 #videowrapper {
   margin-bottom: 40px;
   position: relative;
@@ -52,7 +53,10 @@
 }
 
 /* Skills Section */
-
+.skills-parent{
+  background-color: #f0f0f7;
+  padding-bottom: 30px;
+}
 .skills {
   box-shadow: 10px 10px 20px black;
   gap:20px;
@@ -75,4 +79,53 @@
 }
 .skill-card img{
   padding: 15px;
+}
+.education{
+  align-items: center !important;
+  justify-content: center !important;
+  left: 50%;
+  right: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 140px;
+
+}
+
+.education-card img{
+  height: 25%;
+  width: 25%;
+  margin-right: 20px;
+}
+.education-card h6{
+  color: green;
+}
+.education-card h3{
+color: rgb(33, 33, 84);
+}
+
+.education-card{
+  width:95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 10px 10px 20px black;
+}
+
+@media only screen and (max-width: 600px){
+  .skills-parent{
+    
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .education{
+    margin-left: 17px;
+  }
+  .education-card img{
+    width: 60%;
+    height: 40%;
+  }
+  .education-card{
+    justify-content: center;
+  }
 }

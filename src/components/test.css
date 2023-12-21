@@ -85,21 +85,19 @@
 .skill-card img{
   padding: 15px;
 }
+
+
 .education{
-  align-items: center !important;
-  justify-content: center !important;
-  left: 50%;
-  right: 50%;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 140px;
-
 }
-
+.education-text {
+  margin-left: 20px;
+}
 .education-card img{
   height: 25%;
   width: 25%;
-  margin-right: 20px;
 }
 .education-card h6{
   color: green;
@@ -112,25 +110,108 @@ color: rgb(33, 33, 84);
   width:95%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   margin-top: 20px;
   box-shadow: 10px 10px 20px black;
 }
 
 @media only screen and (max-width: 600px){
+  .education-text {
+    margin-left: 0px;
+    padding: 5px;
+  }
   .skills-parent{
-    
     margin-right: 0px;
     padding-right: 0px;
   }
   .education{
-    margin-left: 17px;
+    margin-left: 8px;
   }
   .education-card img{
-    width: 60%;
-    height: 40%;
+    height: 25%;
+    width: 100%;
   }
   .education-card{
-    justify-content: center;
+    padding: 10px;
   }
+}
+.edu-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edu-hat{
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.projects-body{
+  background-color: #f0f0f7;
+}
+.projects{
+  display: flex;
+  flex-wrap:wrap ;
+  gap:30px;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+.project-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 350px;
+  width: 350px;
+  background-color: aqua;
+}
+.project-card img{
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+ transition: .5s ease;
+}
+.project-head{
+  margin-top: 15px;
+  margin-right: 15px;
+  height: 50px;
+  width: 50px;
+}
+/*W3 image card */
+
+.containerx {
+  position: relative;
+  height: 350px;
+  width: 350px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerx:hover .image {
+  opacity: 0.3;
+}
+
+.containerx:hover .middle {
+  opacity: 1;
+}
+
+.text a{
+  text-decoration: none;
+  background-color: #242526;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
 }

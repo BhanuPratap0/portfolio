@@ -11,7 +11,7 @@ const Home = () => {
             loop={true}
             controls={false}
             playsInline
-            muted 
+            muted
             src={require("./images/bg.mp4")}
             id="video" >
           </video>
@@ -117,12 +117,17 @@ const Home = () => {
 
       {/* EDUCATION SECTION*/}
 
-      <center><h1 style={{ marginTop: "20px" }} >My Education</h1></center>
+      <center>
+        <div className='edu-head' >
+          <img className='edu-hat' src={require('./images/education.png')} />
+          <h1 style={{ marginTop: "20px" }} >My Education</h1>
+        </div>
+      </center>
       <div className='container education'>
 
         <div className='education-card'>
           <img src={require('./images/college.jpg')} />
-          <div>
+          <div className='education-text' >
             <h3>Higher Secondary School</h3>
             <p>Demonstraion Multipurpose School</p>
             <h6>2008 - 2019 | Completed</h6>
@@ -131,15 +136,52 @@ const Home = () => {
 
         <div className='education-card'>
           <img src={require('./images/school.jpg')} />
-          <div>
+          <div className='education-text' >
             <h3>Bachelors of Technology in Information Technology</h3>
-            <p>Demonstraion Multipurpose School</p>
+            <p>Government Engineering College Ajmer</p>
             <h6>2008 - 2019 | Completed</h6>
           </div>
         </div>
-
       </div>
 
+
+      {/* PROJECTS SECTION */}
+      <div className='projects-body' >
+        <div className='edu-head' >
+          <img className='project-head' src={require('./images/projects.png')} />
+          <h1 style={{ marginTop: "20px" }} >My Projects</h1>
+        </div>
+        <div className='projects'>
+          
+
+          <div class="containerx">
+            <img src={require('./images/talk-a-tive.png')} alt="Avatar" class="image" />
+              <div class="middle">
+                <div class="text"><a href='https://talk-a-tive-ihk6.onrender.com' >Talk-A-Tive</a></div>
+              </div>
+          </div>
+          <div class="containerx">
+            <img src={require('./images/inotebook.PNG')} alt="Avatar" class="image" />
+              <div class="middle">
+                <div class="text"><a href='https://bhanu-inotebook.netlify.app/' >iNoteBook</a></div>
+              </div>
+          </div>
+          <div class="containerx">
+            <img src={require('./images/news.PNG')} alt="Avatar" class="image" />
+              <div class="middle">
+                <div class="text"><a href='https://newsmonkey-us.netlify.app/' >News Monkey-US</a></div>
+              </div>
+          </div>
+          <div class="containerx">
+            <img src={require('./images/text-util.png')} alt="Avatar" class="image" />
+              <div class="middle">
+                <div class="text"><a href='https://my-textutilapp.netlify.app/' >Text Utils</a></div>
+                
+              </div>
+          </div>
+
+        </div>
+      </div>
     </>
   )
 }

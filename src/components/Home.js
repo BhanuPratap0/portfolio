@@ -20,7 +20,7 @@ const Home = () => {
               <div className='front-section' >
                 <h1>Hi There,<br />I'm Bhanu Pratap Singh</h1>
                 <div className='social d-flex' >
-                  <Link><img src={require('./images/git.png')} /></Link>
+                  <Link ><img src={require('./images/git.png')} /></Link>
                   <Link><img src={require('./images/insta.png')} /></Link>
                   <Link><img src={require('./images/linkdin.png')} /></Link>
                 </div>
@@ -139,7 +139,7 @@ const Home = () => {
           <div className='education-text' >
             <h3>Bachelors of Technology in Information Technology</h3>
             <p>Government Engineering College Ajmer</p>
-            <h6>2008 - 2019 | Completed</h6>
+            <h6>2020 - 2024 | Pursuing</h6>
           </div>
         </div>
       </div>

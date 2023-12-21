@@ -7,9 +7,13 @@ const Home = () => {
     <>
       <div id="videowrapper">
         <div id="fullScreenDiv">
-          <video playsinline loop autoPlay muted="true" autobuffer id="video" >
-            <source src={require("./images/bg.mp4")} type="video/webm" />
-            <source src={require("./images/bg.mp4")} type="video/mp4" />
+          <video autoPlay={true}
+            loop={true}
+            controls={false}
+            playsInline
+            muted 
+            src={require("./images/bg.mp4")}
+            id="video" >
           </video>
           <div id="videoMessage" className="styling">
             <div className='d-flex flex-wrap' >
@@ -113,7 +117,7 @@ const Home = () => {
 
       {/* EDUCATION SECTION*/}
 
-      <center><h1 style={{marginTop: "20px"}} >My Education</h1></center>
+      <center><h1 style={{ marginTop: "20px" }} >My Education</h1></center>
       <div className='container education'>
 
         <div className='education-card'>

@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div id="videowrapper">
         <div id="fullScreenDiv">
-          <video autoPlay playsinline loop muted id="video" >
+          <video playsinline loop autoPlay muted autobuffer id="video" >
             <source src={require("./images/bg.mp4")} type="video/webm" />
             <source src={require("./images/bg.mp4")} type="video/mp4" />
           </video>

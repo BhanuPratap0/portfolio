@@ -295,6 +295,7 @@ nav input{
 @media only screen and (max-width: 600px){
   .front-section{
     width: 100%;
+    margin-left: 10px;
   }
   .home{
     padding-top: 0px;

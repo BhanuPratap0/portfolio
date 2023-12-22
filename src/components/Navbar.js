@@ -17,6 +17,7 @@ const Navbar = () => {
                                 <li><a href="#skills">Skills</a></li>
                                 <li><a href="#education">Education</a></li>
                                 <li><a href='#projects'>Projects</a></li>
+                                <li><a href='#exp'>Experience</a></li>
                             </ul>
                             <label htmlFor="menu-btn" className="btn menu-btn"><i className="fas fa-bars"></i></label>
                         </div>

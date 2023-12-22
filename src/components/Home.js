@@ -6,6 +6,8 @@ import Skills from './Skills'
 import Education from './Education'
 import Project from './Project'
 import Fade from 'react-reveal/Fade';
+import Timeliner from './Timeliner'
+import Form from './Form'
 
 const Home = () => {
   return (
@@ -25,13 +27,13 @@ const Home = () => {
               <div className='front-section' >
                 <h1>Hi There,<br />I'm Bhanu Pratap Singh</h1>
                 <div className='social d-flex' >
-                  <Link><img src={require('./images/git.png')} /></Link>
-                  <Link><img src={require('./images/insta.png')} /></Link>
-                  <Link><img src={require('./images/linkdin.png')} /></Link>
+                  <a href='https://github.com/BhanuPratap0'><img src={require('./images/git.png')} /></a>
+                  <a href='https://www.instagram.com/_iambhanu/'><img src={require('./images/insta.png')} /></a>
+                  <a href='https://www.linkedin.com/in/bhaanu-p/'><img src={require('./images/linkdin.png')} /></a>
                 </div>
               </div>
               <div className='front-section' >
-                <img src={require('./images/profile.jpeg')} />
+                <img src={require('./images/avatar.jpeg')} />
               </div>
             </div>
           </div>
@@ -57,7 +59,14 @@ const Home = () => {
       {/* PROJECTS SECTION */}
       <Fade bottom>
       <Project/>
+      </Fade>
+      
+      <Fade bottom>
+      <Timeliner/>
+      </Fade>
 
+      <Fade bottom>
+      <Form/>
       </Fade>
     </>
   )

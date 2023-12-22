@@ -310,6 +310,8 @@ nav input{
 .front-section img{
   width: 300px;
   height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .social img{

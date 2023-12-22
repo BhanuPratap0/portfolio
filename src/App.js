@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Form from './components/Form';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/form' element={<Form />} />
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

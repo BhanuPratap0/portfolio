@@ -256,3 +256,9 @@
       width: 99%;
     }
   }
+  .about-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 8px;
+  }

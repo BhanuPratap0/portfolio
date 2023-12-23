@@ -3,7 +3,12 @@ import React from 'react'
 const About = () => {
     return (
         <div id='about'>
-            <div className='heading' ><h1><b>About <span style={{ color: "#126a60" }} >Me</span></b></h1></div>
+            <center>
+                <div className=' edu-head ' >
+                    <img className='about-icon' src={require('./images/about.png')} />
+                    <h1 style={{ marginTop: "20px" }} ><b>About <span style={{ color: "#126a60" }} >Me</span></b></h1>
+                </div>
+            </center>
             <div className='container d-flex flex-wrap'  >
                 <div className='about-section' style={{ justifyContent: "center", textAlign: "center" }}>
                     <img src={require('./images/me.JPG')} />

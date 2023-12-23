@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Timeliner from './components/Timeliner';
+
 function App() {
   return (
     <BrowserRouter>
@@ -12,7 +13,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/time' element={<Timeliner/>} />
         </Routes>
         <Footer/>
       </div>

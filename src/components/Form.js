@@ -48,18 +48,18 @@ const Form = () => {
 
         <hr/>
         <ul class="social-media-list">
-          <li><a href="https://github.com/BhanuPratap0" target="_blank" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://codepen.io/BhanuPratap0" target="_blank" class="contact-icon">
-            <i class="fa fa-codepen" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://twitter.com/bunny28986" target="_blank" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://www.instagram.com/_iambhanu/" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </li>       
+        <a href="https://github.com/BhanuPratap0" target="_blank" class="contact-icon"><li>
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </li></a>
+          <a href="https://codepen.io/BhanuPratap0" target="_blank" class="contact-icon"><li>
+            <i class="fa fa-codepen" aria-hidden="true"></i>
+          </li></a>
+          <a href="https://twitter.com/bunny28986" target="_blank" class="contact-icon"><li>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </li></a>
+          <a href="https://www.instagram.com/_iambhanu/" target="_blank" class="contact-icon"><li>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </li></a>
         </ul>
         <hr/>
 

@@ -15,9 +15,9 @@ const Project = () => {
                             <img src={require('./images/talk-a-tive.png')} alt="Avatar" class="image" />
                             <div class="overlay">
                                 <h3>Chat-App MERN</h3>
-                                <div class="text"><a href='https://talk-a-tive-ihk6.onrender.com' ><i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>Talk-A-Tive</a></div>
+                                <div class="text"><a href='https://talk-a-tive-ihk6.onrender.com' target='_blank' ><i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>Talk-A-Tive</a></div>
 
-                                <a href='https://github.com/BhanuPratap0/Chat-app-final-new' ><div className='button-class' >
+                                <a href='https://github.com/BhanuPratap0/Chat-app-final-new' target='_blank' ><div className='button-class' >
                                     <i class="fa-solid fa-code" style={{ color: "#ffffff", marginTop: "5px", marginLeft: "5px", marginRight: "-5px" }}></i>
                                     <button className='btn btn-primary btn-sm mx-1 code-button '>code</button>
                                 </div>
@@ -33,9 +33,9 @@ const Project = () => {
                             <img src={require('./images/inotebook.PNG')} alt="Avatar" class="image" />
                             <div class="overlay">
                                 <h3>Notes-App MERN</h3>
-                                <div class="text"><a href='https://bhanu-inotebook.netlify.app/' > <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>iNoteBook</a></div>
+                                <div class="text"><a href='https://bhanu-inotebook.netlify.app/' target='_blank' > <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>iNoteBook</a></div>
                                 <a href='https://github.com/BhanuPratap0/inotebook' ><div className='button-class' >
-                                    <i class="fa-solid fa-code" style={{ color: "#ffffff", marginTop: "5px", marginLeft: "5px", marginRight: "-5px" }}></i>
+                                    <i class="fa-solid fa-code" style={{ color: "#ffffff", marginTop: "5px", marginLeft: "5px", marginRight: "-5px target='_blank'" }}></i>
                                     <button className='btn btn-primary btn-sm mx-1 code-button '>code</button>
                                 </div>
                                 </a>
@@ -50,8 +50,8 @@ const Project = () => {
                             <img src={require('./images/news.PNG')} alt="Avatar" class="image" />
                             <div class="overlay">
                                 <h3>LiveNews-App MERN</h3>
-                                <div class="text"><a href='https://newsmonkey-us.netlify.app/' > <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>News Monkey-US</a></div>
-                                <a href='https://github.com/BhanuPratap0/NewsMonkey-US' ><div className='button-class' >
+                                <div class="text"><a href='https://newsmonkey-us.netlify.app/' target='_blank' > <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>News Monkey-US</a></div>
+                                <a href='https://github.com/BhanuPratap0/NewsMonkey-US' target='_blank' ><div className='button-class' >
                                     <i class="fa-solid fa-code" style={{ color: "#ffffff", marginTop: "5px", marginLeft: "5px", marginRight: "-5px" }}></i>
                                     <button className='btn btn-primary btn-sm mx-1 code-button '>code</button>
                                 </div>
@@ -66,8 +66,8 @@ const Project = () => {
                             <img src={require('./images/text-util.png')} alt="Avatar" class="image" />
                             <div class="overlay">
                                 <h3>Text-Utils React-App</h3>
-                                <div class="text"><a href='https://my-textutilapp.netlify.app/' > <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>Text-Utils</a></div>
-                                <a href='https://github.com/BhanuPratap0/Text-Utils' ><div className='button-class' >
+                                <div class="text"><a href='https://my-textutilapp.netlify.app/' target='_blank'> <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>Text-Utils</a></div>
+                                <a href='https://github.com/BhanuPratap0/Text-Utils' target='_blank' ><div className='button-class' >
                                     <i class="fa-solid fa-code" style={{ color: "#ffffff", marginTop: "5px", marginLeft: "5px", marginRight: "-5px" }}></i>
                                     <button className='btn btn-primary btn-sm mx-1 code-button '>code</button>
                                 </div>

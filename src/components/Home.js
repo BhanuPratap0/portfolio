@@ -27,9 +27,9 @@ const Home = () => {
               <div className='front-section' >
                 <h1>Hi There,<br />I'm Bhanu Pratap Singh</h1>
                 <div className='social d-flex' >
-                  <a href='https://github.com/BhanuPratap0'><img src={require('./images/git.png')} /></a>
-                  <a href='https://www.instagram.com/_iambhanu/'><img src={require('./images/insta.png')} /></a>
-                  <a href='https://www.linkedin.com/in/bhaanu-p/'><img src={require('./images/linkdin.png')} /></a>
+                  <a href='https://github.com/BhanuPratap0' target='_blank' ><img src={require('./images/git.png')} /></a>
+                  <a href='https://www.instagram.com/_iambhanu/' target='_blank'><img src={require('./images/insta.png')} /></a>
+                  <a href='https://www.linkedin.com/in/bhaanu-p/' target='_blank'><img src={require('./images/linkdin.png')} /></a>
                 </div>
               </div>
               <div className='front-section' >

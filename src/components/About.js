@@ -6,7 +6,7 @@ const About = () => {
             <div className='heading' ><h1><b>About <span style={{ color: "#126a60" }} >Me</span></b></h1></div>
             <div className='container d-flex flex-wrap'  >
                 <div className='about-section' style={{ justifyContent: "center", textAlign: "center" }}>
-                    <img src={require('./images/me.jpeg')} />
+                    <img src={require('./images/me.JPG')} />
                 </div>
                 <div className='about-section'>
                     <h2>I'm Bhanu</h2>

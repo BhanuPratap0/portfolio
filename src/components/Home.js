@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
               </div>
               <div className='front-section' >
-                <img src={require('./images/avatar.jpeg')} />
+                <img src={require('./images/avatar.PNG')} />
               </div>
             </div>
           </div>

@@ -8,6 +8,7 @@ import Project from './Project'
 import Fade from 'react-reveal/Fade';
 import Timeliner from './Timeliner'
 import Form from './Form'
+import Typed from 'react-typed'
 
 const Home = () => {
   return (
@@ -26,6 +27,24 @@ const Home = () => {
             <div className='d-flex flex-wrap' >
               <div className='front-section' >
                 <h1>Hi There,<br />I'm Bhanu Pratap Singh</h1>
+                <h5>
+                  I am into&nbsp;
+                  <span className='typing-text glow' >
+                    <Typed
+                      strings={[
+                        "Full stack Developement",
+                        "Web Designing",
+                        "Web Development",
+                        "Frontend Development",
+                        "Backend Development",
+
+                      ]}
+                      typeSpeed={50}
+                      backSpeed={10}
+                      loop
+                    />
+                  </span>
+                </h5>
                 <div className='social d-flex' >
                   <a href='https://github.com/BhanuPratap0' target='_blank' ><img src={require('./images/git.png')} /></a>
                   <a href='https://www.instagram.com/_iambhanu/' target='_blank'><img src={require('./images/insta.png')} /></a>
@@ -42,31 +61,31 @@ const Home = () => {
 
       {/* About Section */}
       <Fade bottom>
-      <About/>
+        <About />
       </Fade>
 
       {/* Skills Section */}
       <Fade bottom>
-      <Skills/>
+        <Skills />
       </Fade>
 
 
       {/* EDUCATION SECTION*/}
       <Fade bottom>
-     <Education/>
-     </Fade>
+        <Education />
+      </Fade>
 
       {/* PROJECTS SECTION */}
       <Fade bottom>
-      <Project/>
-      </Fade>
-      
-      <Fade bottom>
-      <Timeliner/>
+        <Project />
       </Fade>
 
       <Fade bottom>
-      <Form/>
+        <Timeliner />
+      </Fade>
+
+      <Fade bottom>
+        <Form />
       </Fade>
     </>
   )

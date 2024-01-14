@@ -32,14 +32,14 @@ const Home = () => {
                   <span className='typing-text' >
                     <Typed
                       strings={[
-                        "Full stack Developement",
+                        "Full stack Development",
                         "Web Designing",
                         "Web Development",
                         "Frontend Development",
                         "Backend Development",
 
                       ]}
-                      typeSpeed={50}
+                      typeSpeed={100}
                       backSpeed={20}
                       loop
                     />

@@ -29,7 +29,7 @@ const Home = () => {
                 <h1>Hi There,<br />I'm Bhanu Pratap Singh</h1>
                 <h5>
                   I am into&nbsp;
-                  <span className='typing-text glow' >
+                  <span className='typing-text' >
                     <Typed
                       strings={[
                         "Full stack Developement",
@@ -40,7 +40,7 @@ const Home = () => {
 
                       ]}
                       typeSpeed={50}
-                      backSpeed={10}
+                      backSpeed={20}
                       loop
                     />
                   </span>
@@ -49,6 +49,7 @@ const Home = () => {
                   <a href='https://github.com/BhanuPratap0' target='_blank' ><img src={require('./images/git.png')} /></a>
                   <a href='https://www.instagram.com/_iambhanu/' target='_blank'><img src={require('./images/insta.png')} /></a>
                   <a href='https://www.linkedin.com/in/bhaanu-p/' target='_blank'><img src={require('./images/linkdin.png')} /></a>
+                  <a href='https://twitter.com/bunny28986' target='_blank'><img style={{borderRadius:"5px"}} src={require('./images/x.png')} /></a>
                 </div>
               </div>
               <div className='front-section' >

@@ -6,13 +6,7 @@
   position: relative;
   overflow: hidden;
 }
-@media only screen and (max-width: 600px){
- 
-  #videowrapper {
-    margin-bottom: 40px;
-    width: 100vw;
-  }
-}
+
 
 #fullScreenDiv {
   min-height: 100%;
@@ -288,3 +282,13 @@ color: rgb(33, 33, 84);
 }
 
 
+@media only screen and (max-width: 600px){
+ 
+  #videowrapper {
+    margin-bottom: 40px;
+    width: 100vw;
+  }
+  .typing-text{
+    font-size: 17px;
+  }
+}

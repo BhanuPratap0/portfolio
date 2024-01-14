@@ -270,15 +270,15 @@ color: rgb(33, 33, 84);
 .typing-text{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: red;
+  color: black;
   font-size: 25px;
   text-shadow:
       0 0 7px #fff,
       0 0 10px #fff,
       0 0 21px #fff,
-      0 0 92px #42b883,
-      0 0 102px #42b883,
-      0 0 151px #42b883;
+      0 0 92px  black,
+      0 0 102px black,
+      0 0 151px black;
 }
 
 

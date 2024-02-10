@@ -26,6 +26,22 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='containerx-parent'>
+                        <h3></h3>
+                        <div class="containerx">
+                            <img src={require('./images/promtopia.JPG')} alt="Avatar" class="image"   />
+                            <div class="overlay">
+                                <h3>Promptopia-Next.js CRUD</h3>
+                                <div class="text"><a href='https://promptopia-share-ai.netlify.app/' target='_blank' > <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>SocioSync - Social Media App<sup>(live)</sup></a></div>
+                                <a href='https://github.com/BhanuPratap0/Promptopia--Share-AI-Prompt' ><div className='button-class' >
+                                    <i class="fa-solid fa-code" style={{ color: "#ffffff", marginTop: "5px", marginLeft: "5px", marginRight: "-5px target='_blank'" }}></i>
+                                    <button className='btn btn-primary btn-sm mx-1 code-button '>code</button>
+                                </div>
+                                </a>
+                                <p>A Next.js app where you can share your ChatGPT prompts with others and copy theirs.</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className='containerx-parent'>
                         <h3></h3>

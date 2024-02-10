@@ -22,7 +22,7 @@ const Project = () => {
                                     <button className='btn btn-primary btn-sm mx-1 code-button '>code</button>
                                 </div>
                                 </a>
-                                <p>Full-Stack Social-Media-App Built Using MERN Stack.Full functionality of follow, like, message, post and other features.</p>
+                                <p>A full-stack social media app built using the MERN stack, featuring comprehensive functionality such as following, liking, messaging, posting, and other features.</p>
                             </div>
                         </div>
                     </div>

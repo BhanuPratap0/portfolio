@@ -29,7 +29,7 @@ const Project = () => {
                     <div className='containerx-parent'>
                         <h3></h3>
                         <div class="containerx">
-                            <img src={require('./images/promtopia.JPG')} alt="Avatar" class="image"   />
+                            <img src={require('./images/promptopia.jpg')} alt="Avatar" class="image"   />
                             <div class="overlay">
                                 <h3>Promptopia-Next.js CRUD</h3>
                                 <div class="text"><a href='https://promptopia-share-ai.netlify.app/' target='_blank' > <i class="fa-regular fa-eye" style={{ marginRight: "5px" }} ></i>SocioSync - Social Media App<sup>(live)</sup></a></div>

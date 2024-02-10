@@ -3,18 +3,22 @@ import React from 'react'
 const Skills = () => {
     return (
         <div id='skills'>
-            
+
             <div className='skills-parent' >
-            <center>
-                <div className=' edu-head ' >
-                    <img className='edu-hat' src={require('./images/skills.png')} />
-                    <h1 style={{ marginTop: "20px" }} ><b>Skills & <span style={{ color: "#126a60" }} >Abilities</span></b></h1>
-                </div>
-            </center>
+                <center>
+                    <div className=' edu-head ' >
+                        <img className='edu-hat' src={require('./images/skills.png')} />
+                        <h1 style={{ marginTop: "20px" }} ><b>Skills & <span style={{ color: "#126a60" }} >Abilities</span></b></h1>
+                    </div>
+                </center>
                 <div className='container skills d-flex flex-wrap'>
                     <div className='card skill-card' >
                         <img src={require('./images/react.png')} />
                         <p>React</p>
+                    </div>
+                    <div className='card skill-card' >
+                        <img src={require('./images/nextjs.png')} />
+                        <p>Next</p>
                     </div>
                     <div className='card skill-card' >
                         <img src={require('./images/express.png')} />

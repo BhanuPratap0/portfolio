@@ -22,7 +22,7 @@ const Project = () => {
                                     <button className='btn btn-primary btn-sm mx-1 code-button '>code</button>
                                 </div>
                                 </a>
-                                <p>Full-Stack Notes-App Built Using MERN Stack. Easy To Use And Useful For Day-To-Day Note Making</p>
+                                <p>Full-Stack Social-Media-App Built Using MERN Stack.Full functionality of follow, like, message, post and other features.</p>
                             </div>
                         </div>
                     </div>

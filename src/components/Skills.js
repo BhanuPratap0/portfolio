@@ -21,6 +21,10 @@ const Skills = () => {
                         <p>Next</p>
                     </div>
                     <div className='card skill-card' >
+                        <img src={require('./images/tailwind.png')} />
+                        <p>Tailwind CSS</p>
+                    </div>
+                    <div className='card skill-card' >
                         <img src={require('./images/express.png')} />
                         <p>ExpressJs</p>
                     </div>

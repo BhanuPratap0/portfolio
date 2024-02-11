@@ -40,7 +40,7 @@ const Form = () => {
         <div class="contact-wrapper">
 
           <form ref={form} onSubmit={sendEmail} class="contact-form" role="form">
-            <span>Dear Bhanu Dev,</span>
+            <span>Dear Bhanu,</span>
             <textarea class="form-txtarea" rows="10" placeholder="MESSAGE" name="user_message" required></textarea>
             <span>My mail address is:</span>
             <input type="email" id="email" placeholder="EMAIL" name="user_email" required />

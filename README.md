@@ -1,7 +1,3 @@
-Certainly! Below is a sample README content for your personal portfolio repository. Feel free to adjust any part of it to better match your project's specifics or personal style.
-
----
-
 # Bhanu Pratap Singh's Portfolio
 
 Welcome to the GitHub repository for my personal portfolio. This portfolio is a comprehensive showcase of my skills, projects, and experiences in the field of software development. It's designed to give you a thorough insight into my professional capabilities and my journey as a developer.
@@ -70,6 +66,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Contact
 
-Bhanu Pratap Singh - [Your Email]
+Bhanu Pratap Singh - [singh28986@gmail.com]
 
 Project Link: [https://github.com/your_username_/portfolio](https://github.com/your_username_/portfolio)

@@ -66,6 +66,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Contact
 
-Bhanu Pratap Singh - [singh28986@gmail.com]
+Bhanu Pratap Singh - singh28986@gmail.com
+Likedin Porfile - https://www.linkedin.com/in/bhaanu-p/
 
-Project Link: [https://github.com/your_username_/portfolio](https://github.com/your_username_/portfolio)
+Project Link: https://github.com/BhanuPratap0/portfolio/

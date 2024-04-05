@@ -17,10 +17,6 @@ const Skills = () => {
                         <p>React</p>
                     </div>
                     <div className='card skill-card' >
-                        <img src={require('./images/nextjs.png')} />
-                        <p>Next</p>
-                    </div>
-                    <div className='card skill-card' >
                         <img src={require('./images/tailwind.png')} />
                         <p>Tailwind CSS</p>
                     </div>

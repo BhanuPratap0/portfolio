@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Timeliner from './components/Timeliner';
+import ParticlesComponent from './components/Particle';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/test' element={<ParticlesComponent id="particles"/>} />
         </Routes>
         <Footer/>
       </div>

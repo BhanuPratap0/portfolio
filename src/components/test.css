@@ -14,7 +14,7 @@
   width: 100vw;
   padding: 0;
   margin: 0;
-  background-color: gray;
+  background-color: rgb(0, 0, 0, 0);
   position: relative;
 }
 
@@ -51,11 +51,16 @@
   flex-direction: column;
 }
 
+/* About Section */
+#about{
+  background-color: white;
+  padding-bottom: 30px;
+}
+
 /* Skills Section */
 .skills-parent {
-  background-color: #f0f0f7;
+  background-color: #133135;
   padding-bottom: 30px;
-  margin-top: 40px;
 }
 
 .skills {
@@ -83,8 +88,13 @@
 
 .skill-card img {
   padding: 15px;
+
 }
 
+#education{
+  background-color: white;
+  padding-bottom: 30px;
+}
 
 .education {
   margin-top: 40px;
@@ -94,6 +104,10 @@
 
 .education-text {
   margin-left: 20px;
+}
+
+.education-card{
+  background-color: ;
 }
 
 .education-card img {
@@ -216,7 +230,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  --tw-bg-opacity: 1;
+  --tw-bg-opacity: 0.6;
   background-color: rgb(254 242 242 / var(--tw-bg-opacity));
   overflow: hidden;
   width: 100%;
@@ -317,6 +331,7 @@
   #videowrapper {
     margin-bottom: 40px;
     width: 100vw;
+    background: rgb(0, 0, 0, 0);
   }
 
   .typing-text {

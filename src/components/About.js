@@ -9,7 +9,7 @@ const About = () => {
                     <h1 style={{ marginTop: "20px" }} ><b>About <span style={{ color: "#126a60" }} >Me</span></b></h1>
                 </div>
             </center>
-            <div className='container d-flex flex-wrap'  >
+            <div className='container about-container d-flex flex-wrap'  >
                 <div className='about-section' style={{ justifyContent: "center", textAlign: "center" }}>
                     <img src={require('./images/me.JPG')} />
                 </div>
